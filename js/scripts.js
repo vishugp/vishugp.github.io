@@ -19,8 +19,10 @@ window.onload = function() {
     'Hey there 👋',
     'This is Vishwanath Guruvayur ✌🏻',
     'I\'m a final year undergraduate student at BITS Pilani 👨🏻‍🎓',
-    'Majoring in Mechanical Engineering and Minor in Data Science 👨🏻‍💻',
+    'Major in Mechanical Engineering and Minor in Data Science 👨🏻‍💻',
     'I build AI and ML based Robotic Models 🤖',
+    'You can contact me at <a href="mailto:vishvesh2704@gmail.com">vishvesh2704@gmail.com</a>',
+    'You can also find me at: <br><a target="_blank" href="https://www.linkedin.com/in/vishwanathgp/">linkedin.com/vishwanathgp</a><br><a target="_blank" href="https://github.com/vishugp">github.com/vishugp</a><br><a target="_blank" href="https://www.instagram.com/_vish_u/">instagram.com/_vish_u</a>',
     getCurrentTime(),
     'Bye! 🙏🏻'
   ]
