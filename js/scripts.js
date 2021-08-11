@@ -16,7 +16,7 @@ window.onload = function() {
   }
 
   var messages = [
-    'Yooooo! 🤟🏻',
+    'Hey there 👋',
     'I\'m Vishwanath Guruvayur ✌🏻',
     'I build AI and ML based Robotic Models 🤖',
     'I\'m currently pursuing my final year Majoring in Mechanical Engineering with Minor in Data Science at BITS Pilani 👨🏻‍🎓',
