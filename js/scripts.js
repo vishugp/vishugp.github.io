@@ -16,11 +16,10 @@ window.onload = function() {
   }
 
   var messages = [
-//     'Hey there 👋',
-    'Yoooo! 🤟🏻',
-    'I\'m Vishwanath Guruvayur ✌🏻',
-    'I\'m currently pursuing my final year at BITS Pilani 👨🏻‍🎓',
-    'Major in Mechanical Engineering and Minor in Data Science 👨🏻‍💻'
+    'Hey there 👋',
+    'This is Vishwanath Guruvayur ✌🏻',
+    'I\'m a final year undergraduate student at BITS Pilani 👨🏻‍🎓',
+    'Majoring in Mechanical Engineering and Minor in Data Science 👨🏻‍💻'
     'I build AI and ML based Robotic Models 🤖',
     getCurrentTime(),
     'Bye! 🙏🏻'
