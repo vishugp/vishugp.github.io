@@ -19,9 +19,9 @@ window.onload = function() {
     'Yooooo! 🤟🏻',
     'I\'m Vishwanath Guruvayur ✌🏻',
     'I build AI and ML based Robotic Models 🤖',
-    'I\'m currently pursuing my final year Majoring in Mechanical Engineering with Minor in Data Science at BITS Pilani 👨🏻‍🎓'
+    'I\'m currently pursuing my final year Majoring in Mechanical Engineering with Minor in Data Science at BITS Pilani 👨🏻‍🎓',
 //     'I\'m currently accepting freelance work.<br> You can contact me at <a href="mailto:shauryasingh96@gmail.com">shauryasingh96@gmail.com</a>',
-    '<a target="_blank" href="https://www.linkedin.com/in/shaurya-singh-23291a101/">linkedin.com/theshauryasingh</a><br><a target="_blank" href="https://github.com/theshauryasingh">github.com/theshauryasingh</a><br><a target="_blank" href="https://twitter.com/theshauryasingh">twitter.com/theshauryasingh</a>',
+//     '<a target="_blank" href="https://www.linkedin.com/in/shaurya-singh-23291a101/">linkedin.com/theshauryasingh</a><br><a target="_blank" href="https://github.com/theshauryasingh">github.com/theshauryasingh</a><br><a target="_blank" href="https://twitter.com/theshauryasingh">twitter.com/theshauryasingh</a>',
     getCurrentTime(),
     'Bye! 🙏🏻'
   ]
