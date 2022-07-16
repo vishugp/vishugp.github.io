@@ -18,7 +18,7 @@ window.onload = function() {
   var messages = [
     'Hey there 👋',
     'This is Vishwanath Guruvayur ✌🏻',
-    'I\'m a final year undergraduate student at BITS Pilani 👨🏻‍🎓',
+    'I have graduated from BITS Pilani Hyderabad Campus 👨🏻‍🎓',
     'Major in Mechanical Engineering and Minor in Data Science 👨🏻‍💻',
     'I build AI and ML based Automation Models 🤖',
     'You can contact me at <a href="mailto:vishvesh2704@gmail.com">vishvesh2704@gmail.com</a>',
