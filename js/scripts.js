@@ -1,7 +1,7 @@
 window.onload = function() {
 
   var messagesEl = document.querySelector('.messages');
-  var typingSpeed = 21;
+  var typingSpeed = 27;
   var loadingText = '<b>•</b><b>•</b><b>•</b>';
   var messageIndex = 0;
 
@@ -17,7 +17,8 @@ window.onload = function() {
 
   var messages = [
     'Hey there 👋',
-    'This is Vishwanath Guruvayur ✌🏻',
+    'This is Vishwanath Guruvayur ✌🏻',,
+    'You are looking at my old website which I created in my university :)',
     'I have graduated from BITS Pilani Hyderabad Campus 👨🏻‍🎓',
     'Major in Mechanical Engineering and Minor in Data Science 👨🏻‍💻',
     'I build AI and ML based Automation Models 🤖',
