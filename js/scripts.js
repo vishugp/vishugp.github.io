@@ -17,7 +17,7 @@ window.onload = function() {
 
   var messages = [
     'Hey there 👋',
-    'This is Vishwanath Guruvayur ✌🏻',,
+    'This is Vishwanath Guruvayur ✌🏻',
     'You are looking at my old website which I created in my undergrad :)',
     'I am doing my undergrad at BITS Pilani 👨🏻‍🎓',
     'Major in Mechanical Engineering and Minor in Data Science 👨🏻‍💻',
