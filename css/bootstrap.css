@@ -16,6 +16,15 @@
    text-align: center;
  }
 
+ .vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
  @font-face {
    font-family: 'Open Sans';
    src: url{'https://fonts.googleapis.com/css?family=Open+Sans'};
@@ -621,8 +630,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 1px;
+  padding-left: 1px;
   width: 100%;
 }
 
@@ -867,7 +876,7 @@ pre code {
     padding-right: 0.30px;
     -ms-flex: 0 0 24%;
         flex: 0 0 24%;
-    max-width: 25%;
+    max-width: 21%;
   }
   .col-sm-4 {
     -ms-flex: 0 0 33.333333%;
@@ -892,7 +901,7 @@ pre code {
   .col-sm-8 {
     -ms-flex: 0 0 80%;
         flex: 0 0 80%;
-    max-width: 70%;
+    max-width: 75%;
   }
   .col-sm-9 {
     -ms-flex: 0 0 75%;
@@ -3273,7 +3282,7 @@ tbody.collapse.show {
       align-items: center;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  padding: 1rem 0rem;
+  padding: 1rem 0rem; 
   font-size: 1.4rem;
 }
 
@@ -3294,11 +3303,11 @@ tbody.collapse.show {
   display:inline-flexbox;
   /* padding-top: 0.3125rem; */
   /* padding-bottom: 0.3125rem; */
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
   margin-top: 0.3rem;
   margin-left: 0.5rem;
-  font-size: 1.6rem;
-  white-space: normal;
+  /* font-size: 1.5rem; */
+  /* white-space: normal; */
   /* line-height: inherit; */
 }
 
