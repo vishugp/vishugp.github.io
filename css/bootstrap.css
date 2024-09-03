@@ -545,6 +545,7 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 100%;
 }
 
 .img-thumbnail {
@@ -697,8 +698,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 21px;
+  padding-left: 21px;
 }
 
 .col {
@@ -776,10 +777,16 @@ pre code {
   max-width: 83.333333%;
 }
 
-.col-11 {
+/* .col-11 {
   -ms-flex: 0 0 91.666667%;
       flex: 0 0 91.666667%;
   max-width: 91.666667%;
+} */
+
+.col-11 {
+  -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+  max-width: 100%;
 }
 
 .col-12 {
@@ -865,7 +872,7 @@ pre code {
   .col-sm-1 {
     -ms-flex: 0 0 3%;
         flex: 0 0 3%;
-    max-width: 3%;
+    max-width: 1%;
   }
   .col-sm-2 {
     -ms-flex: 0 0 16.666667%;
@@ -876,7 +883,7 @@ pre code {
     padding-right: 0.30px;
     -ms-flex: 0 0 24%;
         flex: 0 0 24%;
-    max-width: 21%;
+    max-width: 40%;
   }
   .col-sm-4 {
     -ms-flex: 0 0 33.333333%;
@@ -906,7 +913,7 @@ pre code {
   .col-sm-9 {
     -ms-flex: 0 0 75%;
         flex: 0 0 75%;
-    max-width: 75%;
+    max-width: 72%;
   }
   .col-sm-10 {
     -ms-flex: 0 0 83.333333%;
@@ -916,7 +923,7 @@ pre code {
   .col-sm-11 {
     -ms-flex: 0 0 91.666667%;
         flex: 0 0 91.666667%;
-    max-width: 91.666667%;
+    max-width: 90.666667%;
   }
   .col-sm-12 {
     -ms-flex: 0 0 100%;
@@ -3305,7 +3312,7 @@ tbody.collapse.show {
   /* padding-bottom: 0.3125rem; */
   /* margin-right: 1rem; */
   margin-top: 0.3rem;
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   /* font-size: 1.5rem; */
   /* white-space: normal; */
   /* line-height: inherit; */
@@ -3476,7 +3483,7 @@ tbody.collapse.show {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 92px) {
   .navbar-expand-lg {
     -ms-flex-direction: row;
         flex-direction: row;
@@ -5410,7 +5417,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .rounded {
-  border-radius: 0.27rem !important;
+  border-radius: 0.7rem !important;
 }
 
 .rounded-top {
@@ -8212,6 +8219,7 @@ a.text-dark:focus, a.text-dark:hover {
 
 .text-muted {
   color: #868e96 !important;
+  text-align-last: right;
 }
 
 .text-hide {
