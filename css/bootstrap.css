@@ -698,8 +698,8 @@ pre code {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 21px;
-  padding-left: 21px;
+  padding-right: 27px;
+  padding-left: 27px;
 }
 
 .col {
@@ -5417,7 +5417,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .rounded {
-  border-radius: 0.7rem !important;
+  border-radius: 7.77rem !important;
 }
 
 .rounded-top {
