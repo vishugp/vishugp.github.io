@@ -93,9 +93,15 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
-      <img src="assets/img/can_grab2.gif" alt="" data-aos="fade-in" class="">
-
+      
+      
+      <!-- <img src="assets/img/can_grab2.gif" alt="" data-aos="fade-in" class=""> -->
+      <picture>
+        <!-- This will load on devices smaller than 768px -->
+        <source srcset="assets/img/can_grab3.gif" media="(max-width: 1008px)">
+        <!-- This will load on devices larger than 768px -->
+        <img src="assets/img/can_grab4.gif" alt="Responsive image" class="hero-image">
+      </picture>
       <div class="container" data-aos="fade-up" data-aos-delay="100" style="align-self: flex-start;">
         <h2><strong><span class="pronunciation" data-tooltip="Pronounced as: Vish-wuh-naath Guru-vaa-yur" style="color:var(--background-color)">Vishwanath Guruvayur</span></strong></h2>
         
@@ -118,6 +124,8 @@
         </h3>
         </div>
       </div>
+
+      
 
     </section><!-- /Hero Section -->
 

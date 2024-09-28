@@ -552,7 +552,8 @@ section,
   min-height: 100vh;
   position: relative;
   padding: 80px 0;
-  display: flex;
+  background-image: url('assets/img/can_grab2.gif'); /* Background for mobile */
+    display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -618,6 +619,10 @@ section,
 }
 
 @media (max-width: 768px) {
+
+  .hero {
+    background-image: url('assets/img/can_grab3'); /* Background for mobile */
+  }
   .hero h2 {
     font-size: 32px;
   }
