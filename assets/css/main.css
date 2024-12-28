@@ -19,6 +19,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
+  --myblue: #0076FF;
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
@@ -571,7 +572,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 70%);
+  background: color-mix(in srgb, var(--background-color), transparent 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -601,23 +602,62 @@ section,
   border-bottom: 2px solid var(--accent-color);
 }
 
-.hero .social-links {
+/* .hero .social-links {
   margin-top: 25px;
 }
 
 .hero .social-links a {
 
   font-size: 36px;
-  display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  display: inline-flex;
+  color: color-mix(in srgb, var(--background-color), transparent 0%);
   line-height: 1;
-  margin-right: 20px;
+  margin: 10px;
+  text-align:center;
+  align-items: center;
+  flex-direction: column;
   transition: 0.3s;
 }
 
 .hero .social-links a:hover {
   color: var(--accent-color);
+} */
+
+
+.hero .social-links {
+  margin-top: 25px;
 }
+
+.hero .social-links a {
+  display: inline-flex; /* Makes the links behave like flex containers */
+  flex-direction: column; /* Stacks icon and text vertically */
+  align-items: center; /* Center-aligns icon and text */
+  text-align: center;
+  line-height: 1.2; /* Adjusts spacing between lines */
+  margin: 10px; /* Spacing between links */
+  font-size: 56px; /* Sets the size for the icon */
+  color: var(--background-color, #000); /* Fallback for background color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.hero .social-links a i {
+  font-size: 56px; /* Icon size */
+}
+
+.hero .social-links a span {
+  font-size: 12px; /* Text size below the icon */
+  margin-top: 5px; /* Space between icon and text */
+  color: var(--background-color, #000); /* Text color, same as default */
+}
+
+.hero .social-links a:hover {
+  color: var(--accent-color, orange); /* Change icon color on hover */
+}
+
+.hero .social-links a:hover span {
+  color: var(--accent-color, orange); /* Change text color on hover */
+}
+
 
 @media (max-width: 768px) {
 
